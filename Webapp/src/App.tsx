@@ -46,7 +46,8 @@ interface Metrics {
 // API SERVICE
 // ============================================================================
 
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = 'https://dr-lscblack.netlify.app/api';
+// const API_BASE_URL = 'http://localhost:8000';
 
 class ApiService {
   private baseURL: string;
@@ -198,7 +199,8 @@ const SUGGESTED_QUESTIONS = [
   "What are symptoms of depression?",
   "What foods help with digestion?",
   "What are the benefits of regular exercise?",
-  "How to improve sleep quality?"
+  // "How to improve sleep quality?",
+  "What are common symptoms of anxiety?"
 ];
 
 // ============================================================================
