@@ -1,3 +1,9 @@
+SUGGESTED_QUESTIONS = [
+  "What are symptoms of depression?",
+  "What foods help with digestion?",
+  "What are the benefits of regular exercise?",
+  "What are common symptoms of anxiety?"
+];
 # AfriTon Health Assistant 🏥
 
 *A Transformer-based Medical Chatbot for Accessible Healthcare Information*
