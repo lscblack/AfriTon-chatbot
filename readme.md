@@ -36,7 +36,7 @@ AfriTon addresses these challenges through:
 
 ### Model Training Progress
 
-![Training Metrics](https://via.placeholder.com/800x400/4A90E2/FFFFFF?text=Training+Loss+and+Validation+Metrics+Chart)
+![alt text](image.png)
 
 ###  Quantitative Results
 
