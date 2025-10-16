@@ -65,7 +65,7 @@ AfriTon addresses these challenges through:
 
 ---
 
-## 🛠️ Technical Architecture
+##  Technical Architecture
 
 ### System Design
 
@@ -89,7 +89,7 @@ AfriTon addresses these challenges through:
                          └─────────────────┘
 ```
 
-### 🔧 Core Components
+###  Core Components
 
 #### 1. **Retrieval System**
 - **Model**: `all-MiniLM-L6-v2` (Sentence Transformers)
@@ -107,7 +107,7 @@ AfriTon addresses these challenges through:
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
