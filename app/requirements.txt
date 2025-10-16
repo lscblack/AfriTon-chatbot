@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+transformers
+torch
+sentence-transformers
+faiss-cpu
+sqlalchemy
+psycopg2-binary
+pydantic
+cross-encoder
+numpy
