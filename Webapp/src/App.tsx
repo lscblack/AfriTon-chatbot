@@ -1,10 +1,9 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
-  Send, Menu, Plus, Sun, Moon, Shield, LogOut, Edit2, RefreshCw,
-  ThumbsUp, ThumbsDown, X, Check, MessageSquare, Activity, Users,
-  Clock, TrendingUp, Trash2, Download, ChevronLeft, ChevronRight,
-  User, Bot, Search, Settings, Heart, Stethoscope, AlertTriangle
+  Send, Menu, Plus, Sun, Moon, Shield, Edit2, RefreshCw,
+  ThumbsUp, ThumbsDown, X, Check, MessageSquare, Activity, Users,TrendingUp, Trash2, Download, 
+  User,  Heart, Stethoscope, AlertTriangle
 } from 'lucide-react';
 
 // ============================================================================
