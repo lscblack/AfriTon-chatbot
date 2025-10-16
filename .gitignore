@@ -1,4 +1,22 @@
-models/
-**__pycache__**
+# Model/weights files
+*.model
+*.p5
+*.pt       # PyTorch
+*.bin      # Transformers or binary weights
+*.h5       # Keras / TensorFlow
+*.ckpt     # Checkpoints
+*.tflite   # TensorFlow Lite
+*.pb       # TensorFlow frozen graph
+*.onnx     # ONNX
+*.safetensors  # Hugging Face
+*.pth
+
+# Python cache
+**/__pycache__/
+
+# Logs
 logs/
-**.env
+models/
+# Environment files
+**/.env
+models_cache/

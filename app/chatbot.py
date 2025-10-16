@@ -26,9 +26,9 @@ seq2seq_model = AutoModelForSeq2SeqLM.from_pretrained(SEQ2SEQ_MODEL_PATH)
 # ================================================================
 # CONFIGURATION
 # ================================================================
-DEFAULT_TOP_K = 50
+DEFAULT_TOP_K = 5
 RERANK_THRESHOLD = 0.85
-MIN_COS_SIM = 0.2
+MIN_COS_SIM = 0.4
 MAX_PROMPT_TOKENS = 10240
 RECENT_MESSAGES_LIMIT = 500
 
@@ -114,12 +114,12 @@ def generate_answer(question: str, context: str) -> str:
 
     out = seq2seq_model.generate(
         **inputs,
-        max_length=500,
-        num_beams=16,
+        max_length=256,
+        num_beams=4,
         early_stopping=True,
-        no_repeat_ngram_size=14,
-        length_penalty=0.2,
-        temperature=0.2,
+        no_repeat_ngram_size=2,
+        length_penalty=0.1,
+        temperature=0.8,
         do_sample=False,
     )
     gen_ans = tokenizer.decode(out[0], skip_special_tokens=True)
